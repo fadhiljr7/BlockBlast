@@ -40,8 +40,13 @@ jobs:
           done
           echo "All expected files present."
 
+      # enablement: true lets the workflow create the Pages site itself on the
+      # first run. Without it the action only reads the config, and fails with
+      # "Get Pages site failed / Not Found" until someone enables Pages by hand.
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Upload the site
         uses: actions/upload-pages-artifact@v3
