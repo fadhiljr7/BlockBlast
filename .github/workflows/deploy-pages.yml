@@ -1,0 +1,60 @@
+name: Deploy website to GitHub Pages
+
+# The site is a static folder inside a repository whose root is the iOS app,
+# so it is published with an Actions workflow rather than the branch-folder
+# setting (which only supports / or /docs).
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'blockblastweb/**'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deploy finish; queue at most one more behind it.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Sanity-check the site
+        run: |
+          set -e
+          for file in index.html support.html privacy.html 404.html manifest.json favicon.svg; do
+            test -f "blockblastweb/$file" || { echo "::error::missing blockblastweb/$file"; exit 1; }
+          done
+          test -f blockblastweb/css/styles.css
+          for script in i18n accessibility gsap-animations three-hero; do
+            test -f "blockblastweb/js/$script.js" || { echo "::error::missing js/$script.js"; exit 1; }
+          done
+          echo "All expected files present."
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: blockblastweb
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

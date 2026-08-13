@@ -1,0 +1,17 @@
+{
+  "name": "Block Blast: Accessible Edition",
+  "short_name": "Block Blast",
+  "description": "The block puzzle built for everyone — sighted, blind, or colour blind.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0A0A1A",
+  "theme_color": "#0A0A1A",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["games", "puzzle", "accessibility"],
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
