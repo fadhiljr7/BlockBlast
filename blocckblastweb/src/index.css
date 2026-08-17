@@ -1,0 +1,108 @@
+@import 'tailwindcss';
+
+/*
+  The palette is lifted straight out of the app's Classic theme
+  (BlockBlast/Theme/Theme.swift) so a screenshot of the game and a screenshot of
+  this page use the same seven hues and the same gold accent.
+*/
+@theme {
+  --color-ink: #05060e;
+  --color-night: #0d0f24;
+  --color-navy: #171f3d;
+  --color-surface: #212b52;
+  --color-cell: #2e3b66;
+  --color-accent: #ffc73d;
+
+  --color-block-red: #ed424f;
+  --color-block-blue: #3882f5;
+  --color-block-green: #33ba5c;
+  --color-block-yellow: #facc26;
+  --color-block-purple: #9954e6;
+  --color-block-orange: #fa8729;
+  --color-block-cyan: #29c9d9;
+
+  --font-sans:
+    ui-sans-serif, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto,
+    system-ui, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, monospace;
+
+  --radius-block: 22%;
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :root {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    @apply bg-ink text-white/90 font-sans antialiased;
+    /* The app's Classic background is a vertical gradient; this is the same one
+       stretched behind the whole document so sections can stay transparent. */
+    background-image:
+      radial-gradient(80rem 40rem at 50% -10%, --alpha(var(--color-navy) / 90%), transparent 70%),
+      linear-gradient(180deg, var(--color-night) 0%, var(--color-ink) 60%);
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    @apply bg-accent text-ink;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-3 outline-accent;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    @apply text-white;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@utility container-page {
+  @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+}
+
+/* A pill that reads as a UI control rather than a link. */
+@utility chip {
+  @apply inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1
+    text-xs font-medium tracking-wide text-white/70 uppercase;
+}
+
+/* Cards borrow the board surface so panels feel like part of the game board. */
+@utility panel {
+  @apply rounded-3xl border border-white/10 bg-white/[0.035] backdrop-blur-sm;
+}
+
+/* The dashed outline the app uses for "a piece could land here" — reused on the
+   page for anything that represents an empty or candidate slot. */
+@utility candidate-outline {
+  @apply rounded-[1.25rem] border-2 border-dashed border-white/25;
+}
+
+/* Elements that GSAP reveals start hidden, but only when JS is running with
+   motion allowed — otherwise the content must be visible from the first paint. */
+@utility reveal-hidden {
+  opacity: 0;
+  transform: translateY(1.25rem);
+}

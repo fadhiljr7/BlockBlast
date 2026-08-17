@@ -1,0 +1,18 @@
+# Used when Netlify builds from the repository. Set "Base directory" to
+# blocckblastweb in the Netlify UI, or leave this file's paths as they are and
+# point Netlify at the repository root.
+
+[build]
+  base = "blocckblastweb"
+  command = "npm run build:root"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Same rule as public/_redirects, kept here so a Git-driven deploy is correct
+# even if the publish directory is ever changed.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

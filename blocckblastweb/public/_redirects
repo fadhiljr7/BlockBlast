@@ -1,0 +1,4 @@
+# Netlify: the site is a single-page app, so every path that is not a real file
+# has to be answered with index.html and handed to the router. Without this,
+# /support and /privacy 404 on a hard refresh or a shared link.
+/*  /index.html  200
