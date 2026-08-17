@@ -1,8 +1,8 @@
 name: Deploy website to GitHub Pages
 
-# The site is a static folder inside a repository whose root is the iOS app,
-# so it is published with an Actions workflow rather than the branch-folder
-# setting (which only supports / or /docs).
+# The site is a Vite + React app inside a repository whose root is the iOS app,
+# so it is built here and published with an Actions workflow rather than the
+# branch-folder setting (which only supports / or /docs).
 on:
   push:
     branches: [main]
@@ -21,6 +21,10 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+defaults:
+  run:
+    working-directory: blockblastweb
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,17 +32,42 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v4
 
-      - name: Sanity-check the site
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: blockblastweb/package-lock.json
+
+      # eslint-plugin-jsx-a11y has not declared ESLint 10 in its peer range yet,
+      # so a strict install refuses to resolve the tree.
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Check the demo board rules
+        run: npm run check
+
+      # Builds the client, builds the SSR bundle, then prerenders every route to
+      # static HTML with its own metadata, plus sitemap.xml and robots.txt.
+      - name: Build and prerender
+        run: npm run build
+
+      - name: Verify the prerendered output
         run: |
           set -e
-          for file in index.html support.html privacy.html 404.html manifest.json favicon.svg; do
-            test -f "blockblastweb/$file" || { echo "::error::missing blockblastweb/$file"; exit 1; }
+          for file in index.html support/index.html privacy/index.html 404.html sitemap.xml robots.txt og-card.png; do
+            test -f "dist/$file" || { echo "::error::missing dist/$file"; exit 1; }
           done
-          test -f blockblastweb/css/styles.css
-          for script in i18n accessibility gsap-animations three-hero; do
-            test -f "blockblastweb/js/$script.js" || { echo "::error::missing js/$script.js"; exit 1; }
-          done
-          echo "All expected files present."
+          # A prerendered page must contain real content, not an empty shell —
+          # this is the check that catches the SSR step silently degrading.
+          grep -q 'Playable by Everyone' dist/index.html \
+            || { echo "::error::index.html has no prerendered hero copy"; exit 1; }
+          grep -q 'FAQPage' dist/support/index.html \
+            || { echo "::error::support page is missing its FAQ structured data"; exit 1; }
+          echo "Prerendered output looks complete."
 
       # enablement: true lets the workflow create the Pages site itself on the
       # first run. Without it the action only reads the config, and fails with
@@ -51,7 +80,7 @@ jobs:
       - name: Upload the site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: blockblastweb
+          path: blockblastweb/dist
 
   deploy:
     needs: build

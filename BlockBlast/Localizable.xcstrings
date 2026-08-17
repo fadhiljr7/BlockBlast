@@ -1,3117 +1,3148 @@
 {
-  "sourceLanguage": "en",
-  "strings": {
-    "action.autoPlace": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Place at the best spot"
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@  %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@  %2$@"
           }
+        }
+      }
+    },
+    "action.autoPlace" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Place at the best spot"
+          }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tempatkan di posisi terbaik"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tempatkan di posisi terbaik"
           }
         }
       }
     },
-    "action.done": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Done"
+    "action.done" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Selesai"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai"
           }
         }
       }
     },
-    "action.explore": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Audio explore"
+    "action.explore" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio explore"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jelajah audio"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jelajah audio"
           }
         }
       }
     },
-    "action.explore.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Turns the board into a touch-and-listen surface. Drag to hear cells, triple tap to place."
+    "action.explore.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turns the board into a touch-and-listen surface. Drag to hear cells, triple tap to place."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mengubah papan menjadi permukaan sentuh-dengar. Geser untuk mendengar sel, ketuk tiga kali untuk menempatkan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mengubah papan menjadi permukaan sentuh-dengar. Geser untuk mendengar sel, ketuk tiga kali untuk menempatkan."
           }
         }
       }
     },
-    "action.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hint"
+    "action.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hint"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Petunjuk"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Petunjuk"
           }
         }
       }
     },
-    "action.hint.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Highlights and announces one legal move."
+    "action.hint.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Highlights and announces one legal move."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Menyorot dan mengumumkan satu langkah yang sah."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menyorot dan mengumumkan satu langkah yang sah."
           }
         }
       }
     },
-    "action.newGame": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New game"
+    "action.newGame" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New game"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Permainan baru"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permainan baru"
           }
         }
       }
     },
-    "action.newGame.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Starts a fresh board."
+    "action.newGame.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starts a fresh board."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Memulai papan baru."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memulai papan baru."
           }
         }
       }
     },
-    "action.settings": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Settings"
+    "action.settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pengaturan"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengaturan"
           }
         }
       }
     },
-    "action.settings.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Themes, sound, haptics and input options."
+    "action.settings.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Themes, sound, haptics and input options."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tema, suara, haptik, dan opsi masukan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema, suara, haptik, dan opsi masukan."
           }
         }
       }
     },
-    "action.undo": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Undo"
+    "action.undo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Undo"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Urungkan"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Urungkan"
           }
         }
       }
     },
-    "action.undo.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$d undos banked. One is earned every three pieces."
+    "action.undo.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$d undos banked. One is earned every three pieces."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$d urung tersimpan. Satu diperoleh setiap tiga balok."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$d urung tersimpan. Satu diperoleh setiap tiga balok."
           }
         }
       }
     },
-    "banner.combo": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Combo ×%1$d"
+    "banner.combo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Combo ×%1$d"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kombo ×%1$d"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombo ×%1$d"
           }
         }
       }
     },
-    "block.description": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ with %2$@"
+    "block.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ with %2$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ dengan %2$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ dengan %2$@"
           }
         }
       }
     },
-    "board.explore.label": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Board explorer. Drag a finger to hear each cell. Triple tap to place the piece in hand."
+    "board.explore.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Board explorer. Drag a finger to hear each cell. Triple tap to place the piece in hand."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Penjelajah papan. Geser jari untuk mendengar setiap sel. Ketuk tiga kali untuk menempatkan balok di tangan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penjelajah papan. Geser jari untuk mendengar setiap sel. Ketuk tiga kali untuk menempatkan balok di tangan."
           }
         }
       }
     },
-    "board.label": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Game board, 8 by 8"
+    "board.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Game board, 8 by 8"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Papan permainan, 8 kali 8"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papan permainan, 8 kali 8"
           }
         }
       }
     },
-    "board.summary": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ mode. Score %2$@, best %3$@. %4$d cells filled, %5$d free."
+    "board.summary" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ mode. Score %2$@, best %3$@. %4$d cells filled, %5$d free."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mode %1$@. Skor %2$@, terbaik %3$@. %4$d sel terisi, %5$d kosong."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode %1$@. Skor %2$@, terbaik %3$@. %4$d sel terisi, %5$d kosong."
           }
         }
       }
     },
-    "cell.doesNotFit": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "does not fit"
+    "cell.doesNotFit" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "does not fit"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "tidak muat"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tidak muat"
           }
         }
       }
     },
-    "cell.empty": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Row %1$d, column %2$d, empty"
+    "cell.empty" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Row %1$d, column %2$d, empty"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Baris %1$d, kolom %2$d, kosong"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baris %1$d, kolom %2$d, kosong"
           }
         }
       }
     },
-    "cell.filled": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Row %1$d, column %2$d, %3$@"
+    "cell.filled" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Row %1$d, column %2$d, %3$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Baris %1$d, kolom %2$d, %3$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baris %1$d, kolom %2$d, %3$@"
           }
         }
       }
     },
-    "cell.fits": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "fits here"
+    "cell.fits" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fits here"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "muat di sini"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "muat di sini"
           }
         }
       }
     },
-    "cell.fitsAndClears": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "fits here, clears %1$d lines"
+    "cell.fitsAndClears" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fits here, clears %1$d lines"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "muat di sini, membersihkan %1$d baris"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "muat di sini, membersihkan %1$d baris"
           }
         }
       }
     },
-    "cell.hint.blocked": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The piece in hand does not fit here."
+    "cell.hint.blocked" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The piece in hand does not fit here."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Balok di tangan tidak muat di sini."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balok di tangan tidak muat di sini."
           }
         }
       }
     },
-    "cell.hint.pickPiece": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pick up a piece from the tray first."
+    "cell.hint.pickPiece" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick up a piece from the tray first."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ambil dulu satu balok dari baki."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ambil dulu satu balok dari baki."
           }
         }
       }
     },
-    "cell.hint.place": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Double tap to place the piece here."
+    "cell.hint.place" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Double tap to place the piece here."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ketuk dua kali untuk menempatkan balok di sini."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk dua kali untuk menempatkan balok di sini."
           }
         }
       }
+    },
+    "Classic" : {
+
     },
-    "clear.dissolve": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dissolve"
+    "clear.dissolve" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dissolve"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Larut"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Larut"
           }
         }
       }
     },
-    "clear.implode": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Implode"
+    "clear.implode" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Implode"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mengempis"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mengempis"
           }
         }
       }
     },
-    "clear.shatter": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Shatter"
+    "clear.shatter" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shatter"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pecah"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pecah"
           }
         }
       }
     },
-    "clear.slideOut": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Slide out"
+    "clear.slideOut" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slide out"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Geser keluar"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geser keluar"
           }
         }
       }
     },
-    "color.blue": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "blue"
+    "color.blue" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "blue"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "biru"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "biru"
           }
         }
       }
     },
-    "color.cyan": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "cyan"
+    "color.cyan" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cyan"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "sian"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sian"
           }
         }
       }
     },
-    "color.green": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "green"
+    "color.green" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "green"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "hijau"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hijau"
           }
         }
       }
     },
-    "color.orange": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "orange"
+    "color.orange" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "orange"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "oranye"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "oranye"
           }
         }
       }
     },
-    "color.purple": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "purple"
+    "color.purple" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "purple"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ungu"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ungu"
           }
         }
       }
     },
-    "color.red": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "red"
+    "color.red" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "red"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "merah"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "merah"
           }
         }
       }
     },
-    "color.yellow": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "yellow"
+    "color.yellow" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "yellow"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "kuning"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kuning"
           }
         }
       }
     },
-    "event.combo": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Combo times %1$d"
+    "event.combo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Combo times %1$d"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kombo kali %1$d"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombo kali %1$d"
           }
         }
       }
     },
-    "event.confirmPlacement": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aimed at row %1$d, column %2$d. Activate again to place."
+    "event.confirmPlacement" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aimed at row %1$d, column %2$d. Activate again to place."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dibidik ke baris %1$d, kolom %2$d. Aktifkan lagi untuk menempatkan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dibidik ke baris %1$d, kolom %2$d. Aktifkan lagi untuk menempatkan."
           }
         }
       }
     },
-    "event.exploreOff": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Audio explore off."
+    "event.exploreOff" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio explore off."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jelajah audio mati."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jelajah audio mati."
           }
         }
       }
     },
-    "event.exploreOn": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Audio explore on. Drag across the board to hear it. Triple tap to place."
+    "event.exploreOn" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio explore on. Drag across the board to hear it. Triple tap to place."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jelajah audio aktif. Geser di papan untuk mendengarnya. Ketuk tiga kali untuk menempatkan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jelajah audio aktif. Geser di papan untuk mendengarnya. Ketuk tiga kali untuk menempatkan."
           }
         }
       }
     },
-    "event.gained": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "plus %1$@"
+    "event.gained" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "plus %1$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "tambah %1$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tambah %1$@"
           }
         }
       }
     },
-    "event.gameOver": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Game over. Final score %1$@"
+    "event.gameOver" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Game over. Final score %1$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Permainan selesai. Skor akhir %1$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permainan selesai. Skor akhir %1$@"
           }
         }
       }
     },
-    "event.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hint: piece %1$d, %2$@, fits at row %3$d, column %4$d"
+    "event.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hint: piece %1$d, %2$@, fits at row %3$d, column %4$d"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Petunjuk: balok %1$d, %2$@, muat di baris %3$d, kolom %4$d"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Petunjuk: balok %1$d, %2$@, muat di baris %3$d, kolom %4$d"
           }
         }
       }
     },
-    "event.linesCleared": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$d lines cleared"
+    "event.linesCleared" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$d lines cleared"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$d baris dibersihkan"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$d baris dibersihkan"
           }
         }
       }
     },
-    "event.noHint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No legal moves left."
+    "event.noHint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No legal moves left."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak ada langkah sah tersisa."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada langkah sah tersisa."
           }
         }
       }
     },
-    "event.personalBest": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New personal best!"
+    "event.personalBest" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New personal best!"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rekor pribadi baru!"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rekor pribadi baru!"
           }
         }
       }
     },
-    "event.pieceLifted": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ in hand. %2$d placements available."
+    "event.pieceLifted" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ in hand. %2$d placements available."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ di tangan. %2$d penempatan tersedia."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ di tangan. %2$d penempatan tersedia."
           }
         }
       }
     },
-    "event.pieceReturned": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Piece put back."
+    "event.pieceReturned" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piece put back."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Balok dikembalikan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balok dikembalikan."
           }
         }
       }
     },
-    "event.placedAt": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Placed at row %1$d, column %2$d"
+    "event.placedAt" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Placed at row %1$d, column %2$d"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ditempatkan di baris %1$d, kolom %2$d"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ditempatkan di baris %1$d, kolom %2$d"
           }
         }
       }
     },
-    "event.rejected.bounds": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Off the board."
+    "event.rejected.bounds" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off the board."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Di luar papan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di luar papan."
           }
         }
       }
     },
-    "event.rejected.noPiece": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pick up a piece first."
+    "event.rejected.noPiece" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick up a piece first."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ambil dulu satu balok."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ambil dulu satu balok."
           }
         }
       }
     },
-    "event.rejected.noUndo": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No undo available yet."
+    "event.rejected.noUndo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No undo available yet."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Belum ada urung yang tersedia."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada urung yang tersedia."
           }
         }
       }
     },
-    "event.rejected.occupied": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Blocked. Those cells are taken."
+    "event.rejected.occupied" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocked. Those cells are taken."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terhalang. Sel-sel itu sudah terisi."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terhalang. Sel-sel itu sudah terisi."
           }
         }
       }
     },
-    "event.score": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Score %1$@"
+    "event.score" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score %1$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skor %1$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skor %1$@"
           }
         }
       }
     },
-    "event.undone": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Move undone. Score %1$@"
+    "event.undone" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move undone. Score %1$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Langkah diurungkan. Skor %1$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Langkah diurungkan. Skor %1$@"
           }
         }
       }
     },
-    "event.zenRelief": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No moves left, so the board made room. Keep going."
+    "event.zenRelief" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No moves left, so the board made room. Keep going."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak ada langkah tersisa, jadi papan memberi ruang. Lanjutkan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada langkah tersisa, jadi papan memberi ruang. Lanjutkan."
           }
         }
       }
     },
-    "gameOver.finalScore": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Final score"
+    "Game mode" : {
+
+    },
+    "gameOver.finalScore" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Final score"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skor akhir"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skor akhir"
           }
         }
       }
     },
-    "gameOver.lines": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lines"
+    "gameOver.lines" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lines"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Baris"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baris"
           }
         }
       }
     },
-    "gameOver.personalBest": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New personal best"
+    "gameOver.personalBest" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New personal best"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rekor pribadi baru"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rekor pribadi baru"
           }
         }
       }
     },
-    "gameOver.pieces": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pieces"
+    "gameOver.pieces" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pieces"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Balok"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balok"
           }
         }
       }
     },
-    "gameOver.score.label": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Final score %1$@"
+    "gameOver.score.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Final score %1$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skor akhir %1$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skor akhir %1$@"
           }
         }
       }
     },
-    "gameOver.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Game over"
+    "gameOver.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Game over"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Permainan selesai"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permainan selesai"
           }
         }
       }
     },
-    "gameOver.tryZen": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Play Zen mode instead"
+    "gameOver.tryZen" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play Zen mode instead"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Main mode Zen saja"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Main mode Zen saja"
           }
         }
       }
     },
-    "gameOver.undo": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Take back last move"
+    "gameOver.undo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take back last move"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tarik kembali langkah terakhir"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarik kembali langkah terakhir"
           }
         }
       }
     },
-    "gameOver.undo.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restores the board to before your last placement and continues the run."
+    "gameOver.undo.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restores the board to before your last placement and continues the run."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mengembalikan papan ke sebelum penempatan terakhir dan melanjutkan permainan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mengembalikan papan ke sebelum penempatan terakhir dan melanjutkan permainan."
           }
         }
       }
     },
-    "hud.best": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Best"
+    "hud.best" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Best"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terbaik"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terbaik"
           }
         }
       }
     },
-    "hud.best.label": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Best score %1$@"
+    "hud.best.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Best score %1$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skor terbaik %1$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skor terbaik %1$@"
           }
         }
       }
     },
-    "hud.combo": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Combo ×%1$d"
+    "hud.combo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Combo ×%1$d"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kombo ×%1$d"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombo ×%1$d"
           }
         }
       }
     },
-    "hud.combo.label": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Combo times %1$d"
+    "hud.combo.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Combo times %1$d"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kombo kali %1$d"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kombo kali %1$d"
           }
         }
       }
     },
-    "hud.score": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Score"
+    "hud.score" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skor"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skor"
           }
         }
       }
     },
-    "hud.score.label": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Score %1$@"
+    "hud.score.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Score %1$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Skor %1$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skor %1$@"
           }
         }
       }
     },
-    "mode.classic": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Classic"
+    "Mode" : {
+
+    },
+    "mode.classic" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Classic"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Klasik"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klasik"
           }
         }
       }
     },
-    "mode.classic.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The run ends when no piece fits."
+    "mode.classic.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The run ends when no piece fits."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Permainan berakhir saat tidak ada balok yang muat."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permainan berakhir saat tidak ada balok yang muat."
           }
         }
       }
     },
-    "mode.zen": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zen"
+    "mode.zen" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zen"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zen"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zen"
           }
         }
       }
     },
-    "mode.zen.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No timer, no game over. The board makes room when you get stuck."
+    "mode.zen.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No timer, no game over. The board makes room when you get stuck."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tanpa waktu, tanpa kalah. Papan memberi ruang saat kamu buntu."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanpa waktu, tanpa kalah. Papan memberi ruang saat kamu buntu."
           }
         }
       }
+    },
+    "Opens Block Blast and deals a fresh board." : {
+
     },
-    "pattern.checkerboard": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "checkerboard"
+    "pattern.checkerboard" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "checkerboard"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "papan catur"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "papan catur"
           }
         }
       }
     },
-    "pattern.crosshatch": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "crosshatch"
+    "pattern.crosshatch" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "crosshatch"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "silang rapat"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "silang rapat"
           }
         }
       }
     },
-    "pattern.diagonalStripes": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "diagonal stripes"
+    "pattern.diagonalStripes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "diagonal stripes"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "garis diagonal"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "garis diagonal"
           }
         }
       }
     },
-    "pattern.dots": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "dots"
+    "pattern.dots" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dots"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "titik-titik"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "titik-titik"
           }
         }
       }
     },
-    "pattern.horizontalStripes": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "horizontal stripes"
+    "pattern.horizontalStripes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "horizontal stripes"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "garis mendatar"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "garis mendatar"
           }
         }
       }
     },
-    "pattern.verticalStripes": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "vertical stripes"
+    "pattern.verticalStripes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vertical stripes"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "garis tegak"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "garis tegak"
           }
         }
       }
     },
-    "pattern.waves": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "waves"
+    "pattern.waves" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "waves"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "gelombang"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "gelombang"
           }
         }
       }
     },
-    "piece.description": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@, %2$@"
+    "piece.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, %2$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@, %2$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, %2$@"
           }
         }
       }
     },
-    "placement.drag": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Drag & drop"
+    "placement.drag" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drag & drop"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seret & lepas"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seret & lepas"
           }
         }
       }
     },
-    "placement.drag.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Drag a piece onto the board. Tapping a piece also picks it up."
+    "placement.drag.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drag a piece onto the board. Tapping a piece also picks it up."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seret balok ke papan. Mengetuk balok juga mengambilnya."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seret balok ke papan. Mengetuk balok juga mengambilnya."
           }
         }
       }
     },
-    "placement.dwell": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dwell control"
+    "placement.dwell" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dwell control"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kontrol tahan"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrol tahan"
           }
         }
       }
     },
-    "placement.dwell.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tap a piece, then rest on a cell — it places itself. Works with Switch Control."
+    "placement.dwell.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap a piece, then rest on a cell — it places itself. Works with Switch Control."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ketuk balok, lalu diam di satu sel — balok menempatkan dirinya. Cocok dengan Kontrol Sakelar."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk balok, lalu diam di satu sel — balok menempatkan dirinya. Cocok dengan Kontrol Sakelar."
           }
         }
       }
     },
-    "placement.sticky": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sticky drag (tap, tap)"
+    "placement.sticky" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sticky drag (tap, tap)"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seret lengket (ketuk, ketuk)"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seret lengket (ketuk, ketuk)"
           }
         }
       }
     },
-    "placement.sticky.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tap a piece, then tap a highlighted cell. No dragging needed."
+    "placement.sticky.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap a piece, then tap a highlighted cell. No dragging needed."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ketuk balok, lalu ketuk sel yang disorot. Tanpa perlu menyeret."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk balok, lalu ketuk sel yang disorot. Tanpa perlu menyeret."
           }
         }
       }
     },
-    "settings.announceScore": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Announce score after each move"
+    "settings.announceScore" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Announce score after each move"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Umumkan skor setiap langkah"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umumkan skor setiap langkah"
           }
         }
       }
     },
-    "settings.audio": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sound"
+    "settings.audio" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sound"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suara"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suara"
           }
         }
       }
     },
-    "settings.boardTones": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cell tones"
+    "settings.boardTones" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cell tones"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nada sel"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nada sel"
           }
         }
       }
     },
-    "settings.boardTones.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Every cell you touch or focus plays its own note. Higher notes are higher up the board."
+    "settings.boardTones.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every cell you touch or focus plays its own note. Higher notes are higher up the board."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Setiap sel yang disentuh atau difokuskan memainkan nadanya sendiri. Nada lebih tinggi berarti lebih ke atas papan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setiap sel yang disentuh atau difokuskan memainkan nadanya sendiri. Nada lebih tinggi berarti lebih ke atas papan."
           }
         }
       }
     },
-    "settings.clearEffect": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Line clear effect"
+    "settings.clearEffect" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Line clear effect"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Efek pembersihan baris"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Efek pembersihan baris"
           }
         }
       }
     },
-    "settings.confirm": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Confirm before placing"
+    "settings.confirm" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm before placing"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Konfirmasi sebelum menempatkan"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konfirmasi sebelum menempatkan"
           }
         }
       }
     },
-    "settings.confirm.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The first tap on a cell only aims. The piece is placed when you choose the same cell again."
+    "settings.confirm.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The first tap on a cell only aims. The piece is placed when you choose the same cell again."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ketukan pertama pada sel hanya membidik. Balok ditempatkan saat kamu memilih sel yang sama lagi."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketukan pertama pada sel hanya membidik. Balok ditempatkan saat kamu memilih sel yang sama lagi."
           }
         }
       }
     },
-    "settings.dwellDuration": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dwell time: %.1f seconds"
+    "settings.dwellDuration" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dwell time: %.1f seconds"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Waktu tahan: %.1f detik"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waktu tahan: %.1f detik"
           }
         }
       }
     },
-    "settings.dwellDuration.label": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dwell time in seconds"
+    "settings.dwellDuration.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dwell time in seconds"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Waktu tahan dalam detik"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waktu tahan dalam detik"
           }
         }
       }
     },
-    "settings.hapticIntensity": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Strength"
+    "settings.hapticIntensity" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strength"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kekuatan"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kekuatan"
           }
         }
       }
     },
-    "settings.haptics": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Haptics"
+    "settings.haptics" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptics"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Haptik"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptik"
           }
         }
       }
     },
-    "settings.highContrast": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Force high contrast"
+    "settings.highContrast" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Force high contrast"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Paksa kontras tinggi"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paksa kontras tinggi"
           }
         }
       }
     },
-    "settings.hints": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hint button"
+    "settings.hints" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hint button"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tombol petunjuk"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tombol petunjuk"
           }
         }
       }
     },
-    "settings.hints.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Shows a button that highlights and announces one legal move."
+    "settings.hints.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shows a button that highlights and announces one legal move."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Menampilkan tombol yang menyorot dan mengumumkan satu langkah sah."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menampilkan tombol yang menyorot dan mengumumkan satu langkah sah."
           }
         }
       }
     },
-    "settings.idleAnimation": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gentle idle animation"
+    "settings.idleAnimation" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gentle idle animation"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Animasi diam yang lembut"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animasi diam yang lembut"
           }
         }
       }
     },
-    "settings.language": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Language"
+    "settings.language" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bahasa"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bahasa"
           }
         }
       }
     },
-    "settings.language.open": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Change language in iOS Settings"
+    "settings.language.open" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change language in iOS Settings"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ubah bahasa di Pengaturan iOS"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubah bahasa di Pengaturan iOS"
           }
         }
       }
     },
-    "settings.mode": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mode"
+    "settings.mode" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mode"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode"
           }
         }
       }
     },
-    "settings.patterns": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Patterns on blocks"
+    "settings.patterns" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patterns on blocks"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pola pada balok"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pola pada balok"
           }
         }
       }
     },
-    "settings.patterns.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Each colour also carries a unique pattern, so blocks stay distinguishable without colour vision."
+    "settings.patterns.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Each colour also carries a unique pattern, so blocks stay distinguishable without colour vision."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Setiap warna juga membawa pola unik, sehingga balok tetap dapat dibedakan tanpa penglihatan warna."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setiap warna juga membawa pola unik, sehingga balok tetap dapat dibedakan tanpa penglihatan warna."
           }
         }
       }
     },
-    "settings.placement": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Placing pieces"
+    "settings.placement" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Placing pieces"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Menempatkan balok"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menempatkan balok"
           }
         }
       }
     },
-    "settings.playSample": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Play a sample"
+    "settings.playSample" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play a sample"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Putar contoh"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Putar contoh"
           }
         }
       }
     },
-    "settings.preset": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Set up for maximum accessibility"
+    "settings.preset" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set up for maximum accessibility"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Siapkan untuk aksesibilitas maksimal"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siapkan untuk aksesibilitas maksimal"
           }
         }
       }
     },
-    "settings.preset.applied": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Accessibility preset applied: high contrast, patterns, tap-to-place, spatial audio, haptics and verbose speech."
+    "settings.preset.applied" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accessibility preset applied: high contrast, patterns, tap-to-place, spatial audio, haptics and verbose speech."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Prasetel aksesibilitas diterapkan: kontras tinggi, pola, ketuk-untuk-menempatkan, audio spasial, haptik, dan ucapan rinci."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prasetel aksesibilitas diterapkan: kontras tinggi, pola, ketuk-untuk-menempatkan, audio spasial, haptik, dan ucapan rinci."
           }
         }
       }
     },
-    "settings.preset.footer": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Everything below can still be changed individually afterwards."
+    "settings.preset.footer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Everything below can still be changed individually afterwards."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Semua di bawah ini tetap dapat diubah satu per satu setelahnya."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semua di bawah ini tetap dapat diubah satu per satu setelahnya."
           }
         }
       }
     },
-    "settings.preset.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Turns on high contrast, patterns, tap to place, spatial audio, haptics and verbose speech in one step."
+    "settings.preset.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turns on high contrast, patterns, tap to place, spatial audio, haptics and verbose speech in one step."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mengaktifkan kontras tinggi, pola, ketuk untuk menempatkan, audio spasial, haptik, dan ucapan rinci dalam satu langkah."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mengaktifkan kontras tinggi, pola, ketuk untuk menempatkan, audio spasial, haptik, dan ucapan rinci dalam satu langkah."
           }
         }
       }
     },
-    "settings.section.appearance": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Appearance"
+    "settings.section.appearance" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appearance"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tampilan"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilan"
           }
         }
       }
     },
-    "settings.section.audio": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sound"
+    "settings.section.audio" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sound"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suara"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suara"
           }
         }
       }
     },
-    "settings.section.game": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Game"
+    "settings.section.game" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Game"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Permainan"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permainan"
           }
         }
       }
     },
-    "settings.section.haptics": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Haptics"
+    "settings.section.haptics" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptics"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Haptik"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptik"
           }
         }
       }
     },
-    "settings.section.input": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Input"
+    "settings.section.input" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Masukan"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masukan"
           }
         }
       }
     },
-    "settings.section.input.footer": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tapping a piece always picks it up, in every mode, so dragging is never required."
+    "settings.section.input.footer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tapping a piece always picks it up, in every mode, so dragging is never required."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mengetuk balok selalu mengambilnya, di semua mode, jadi menyeret tidak pernah diwajibkan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mengetuk balok selalu mengambilnya, di semua mode, jadi menyeret tidak pernah diwajibkan."
           }
         }
       }
     },
-    "settings.section.language": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Language"
+    "settings.section.language" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bahasa"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bahasa"
           }
         }
       }
     },
-    "settings.section.language.footer": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The game follows your system language for both text and spoken feedback, and updates as soon as you change it."
+    "settings.section.language.footer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The game follows your system language for both text and spoken feedback, and updates as soon as you change it."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Permainan mengikuti bahasa sistem untuk teks dan umpan balik suara, dan berubah begitu kamu menggantinya."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permainan mengikuti bahasa sistem untuk teks dan umpan balik suara, dan berubah begitu kamu menggantinya."
           }
         }
       }
     },
-    "settings.section.legend": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Block key"
+    "settings.section.legend" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block key"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kunci balok"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunci balok"
           }
         }
       }
     },
-    "settings.section.speech": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Speech"
+    "settings.section.speech" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speech"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ucapan"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ucapan"
           }
         }
       }
     },
-    "settings.section.speech.footer": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "With VoiceOver and Screen Curtain on, the board is fully playable: swipe through cells to hear them, or use Audio explore on the game screen."
+    "settings.section.speech.footer" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With VoiceOver and Screen Curtain on, the board is fully playable: swipe through cells to hear them, or use Audio explore on the game screen."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dengan VoiceOver dan Tirai Layar aktif, papan tetap sepenuhnya bisa dimainkan: usap antar sel untuk mendengarnya, atau pakai Jelajah audio di layar permainan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dengan VoiceOver dan Tirai Layar aktif, papan tetap sepenuhnya bisa dimainkan: usap antar sel untuk mendengarnya, atau pakai Jelajah audio di layar permainan."
           }
         }
       }
     },
-    "settings.soundPack": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sound pack"
+    "settings.soundPack" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sound pack"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Paket suara"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paket suara"
           }
         }
       }
     },
-    "settings.spatial": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Spatial audio"
+    "settings.spatial" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spatial audio"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Audio spasial"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio spasial"
           }
         }
       }
     },
-    "settings.spatial.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Places each sound where its cell is: left to right across the board, low to high up the board."
+    "settings.spatial.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Places each sound where its cell is: left to right across the board, low to high up the board."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Menempatkan setiap suara sesuai posisi selnya: kiri ke kanan di papan, rendah ke tinggi ke atas papan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menempatkan setiap suara sesuai posisi selnya: kiri ke kanan di papan, rendah ke tinggi ke atas papan."
           }
         }
       }
     },
-    "settings.theme": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Theme"
+    "settings.theme" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theme"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tema"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema"
           }
         }
       }
     },
-    "settings.themePreview.label": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Theme preview showing all seven block colours and their patterns"
+    "settings.themePreview.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theme preview showing all seven block colours and their patterns"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pratinjau tema menampilkan ketujuh warna balok dan polanya"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pratinjau tema menampilkan ketujuh warna balok dan polanya"
           }
         }
       }
     },
-    "settings.title": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Settings"
+    "settings.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pengaturan"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengaturan"
           }
         }
       }
     },
-    "settings.verbosity": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "VoiceOver detail"
+    "settings.verbosity" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver detail"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Detail VoiceOver"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detail VoiceOver"
           }
         }
       }
     },
-    "settings.vision": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Colour vision preview"
+    "settings.vision" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colour vision preview"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pratinjau penglihatan warna"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pratinjau penglihatan warna"
           }
         }
       }
     },
-    "settings.vision.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Redraws the whole game the way it looks with this type of colour blindness."
+    "settings.vision.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redraws the whole game the way it looks with this type of colour blindness."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Menggambar ulang seluruh permainan seperti terlihat dengan jenis buta warna ini."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menggambar ulang seluruh permainan seperti terlihat dengan jenis buta warna ini."
           }
         }
       }
     },
-    "settings.volume": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Volume"
+    "settings.volume" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Volume"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volume"
           }
         }
       }
     },
-    "shape.block": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "block"
+    "shape.block" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "block"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "balok"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "balok"
           }
         }
       }
     },
-    "shape.corner": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "corner"
+    "shape.corner" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "corner"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "siku"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "siku"
           }
         }
       }
     },
-    "shape.description": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$d by %2$d %3$@, %4$d cells"
+    "shape.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$d by %2$d %3$@, %4$d cells"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$d kali %2$d %3$@, %4$d sel"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$d kali %2$d %3$@, %4$d sel"
           }
         }
       }
     },
-    "shape.domino": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "domino"
+    "shape.domino" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "domino"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "domino"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "domino"
           }
         }
       }
     },
-    "shape.lShape": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "L-shape"
+    "shape.line3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 in a line"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "bentuk L"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 sebaris"
           }
         }
       }
     },
-    "shape.line3": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "3 in a line"
+    "shape.line4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4 in a line"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "3 sebaris"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4 sebaris"
           }
         }
       }
     },
-    "shape.line4": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "4 in a line"
+    "shape.line5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5 in a line"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "4 sebaris"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5 sebaris"
           }
         }
       }
     },
-    "shape.line5": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "5 in a line"
+    "shape.lShape" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L-shape"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "5 sebaris"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bentuk L"
           }
         }
       }
     },
-    "shape.rect": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "rectangle"
+    "shape.rect" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rectangle"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "persegi panjang"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "persegi panjang"
           }
         }
       }
     },
-    "shape.sShape": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "S-shape"
+    "shape.single" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "single cell"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "bentuk S"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "satu sel"
           }
         }
       }
     },
-    "shape.single": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "single cell"
+    "shape.square2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 by 2 square"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "satu sel"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "persegi 2 kali 2"
           }
         }
       }
     },
-    "shape.square2": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "2 by 2 square"
+    "shape.square3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 by 3 square"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "persegi 2 kali 2"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "persegi 3 kali 3"
           }
         }
       }
     },
-    "shape.square3": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "3 by 3 square"
+    "shape.sShape" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "S-shape"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "persegi 3 kali 3"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bentuk S"
           }
         }
       }
     },
-    "shape.tShape": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "T-shape"
+    "shape.tShape" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "T-shape"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "bentuk T"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "bentuk T"
           }
         }
       }
     },
-    "sound.nature": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nature"
+    "sound.nature" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nature"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Alam"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alam"
           }
         }
       }
     },
-    "sound.nature.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Water drops and wind chimes."
+    "sound.nature.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Water drops and wind chimes."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tetesan air dan lonceng angin."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tetesan air dan lonceng angin."
           }
         }
       }
     },
-    "sound.organic": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Organic"
+    "sound.organic" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Organic"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Organik"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Organik"
           }
         }
       }
     },
-    "sound.organic.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wood, glass and stone."
+    "sound.organic.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wood, glass and stone."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kayu, kaca, dan batu."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayu, kaca, dan batu."
           }
         }
       }
     },
-    "sound.retro": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Retro"
+    "sound.retro" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retro"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Retro"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retro"
           }
         }
       }
     },
-    "sound.retro.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "8-bit chiptune."
+    "sound.retro.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "8-bit chiptune."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chiptune 8-bit."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiptune 8-bit."
           }
         }
       }
     },
-    "sound.synthetic": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Synthetic"
+    "sound.synthetic" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synthetic"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sintetis"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sintetis"
           }
         }
       }
     },
-    "sound.synthetic.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pure tones. Clearest pitch cues for playing by ear."
+    "sound.synthetic.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pure tones. Clearest pitch cues for playing by ear."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nada murni. Petunjuk nada paling jelas untuk bermain dengan telinga."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nada murni. Petunjuk nada paling jelas untuk bermain dengan telinga."
           }
         }
       }
     },
-    "theme.classic": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Classic"
+    "Start a new game" : {
+
+    },
+    "Start Zen mode" : {
+
+    },
+    "theme.classic" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Classic"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Klasik"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klasik"
           }
         }
       }
     },
-    "theme.classic.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bright, saturated blocks."
+    "theme.classic.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bright, saturated blocks."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Balok cerah dan pekat."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balok cerah dan pekat."
           }
         }
       }
     },
-    "theme.highContrast": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "High Contrast"
+    "theme.highContrast" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Contrast"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kontras Tinggi"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontras Tinggi"
           }
         }
       }
     },
-    "theme.highContrast.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Maximum contrast, solid fills, thick borders."
+    "theme.highContrast.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maximum contrast, solid fills, thick borders."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kontras maksimal, isian solid, batas tebal."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontras maksimal, isian solid, batas tebal."
           }
         }
       }
     },
-    "theme.minimal": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Minimal"
+    "theme.minimal" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minimal"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Minimal"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minimal"
           }
         }
       }
     },
-    "theme.minimal.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Monochrome — pattern carries all identity."
+    "theme.minimal.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monochrome — pattern carries all identity."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Monokrom — pola yang membawa seluruh identitas."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monokrom — pola yang membawa seluruh identitas."
           }
         }
       }
     },
-    "theme.nature": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nature"
+    "theme.nature" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nature"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Alam"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alam"
           }
         }
       }
     },
-    "theme.nature.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wood, stone and leaf tones."
+    "theme.nature.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wood, stone and leaf tones."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nuansa kayu, batu, dan daun."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuansa kayu, batu, dan daun."
           }
         }
       }
     },
-    "theme.neon": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Neon Glow"
+    "theme.neon" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neon Glow"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kilau Neon"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kilau Neon"
           }
         }
       }
     },
-    "theme.neon.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Glowing blocks on deep black."
+    "theme.neon.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glowing blocks on deep black."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Balok bercahaya di atas hitam pekat."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balok bercahaya di atas hitam pekat."
           }
         }
       }
     },
-    "theme.pastel": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pastel Soft"
+    "theme.pastel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastel Soft"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pastel Lembut"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pastel Lembut"
           }
         }
       }
     },
-    "theme.pastel.detail": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Soft, low-intensity colours."
+    "theme.pastel.detail" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soft, low-intensity colours."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Warna lembut berintensitas rendah."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warna lembut berintensitas rendah."
           }
         }
       }
     },
-    "tray.empty": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Piece %1$d, already played"
+    "tray.empty" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piece %1$d, already played"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Balok %1$d, sudah dimainkan"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balok %1$d, sudah dimainkan"
           }
         }
       }
     },
-    "tray.hint": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Double tap to pick up. %1$d placements available."
+    "tray.hint" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Double tap to pick up. %1$d placements available."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ketuk dua kali untuk mengambil. %1$d penempatan tersedia."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk dua kali untuk mengambil. %1$d penempatan tersedia."
           }
         }
       }
     },
-    "tray.hint.noMoves": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "This piece has no legal moves."
+    "tray.hint.noMoves" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This piece has no legal moves."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Balok ini tidak punya langkah sah."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balok ini tidak punya langkah sah."
           }
         }
       }
     },
-    "tray.label": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Piece tray"
+    "tray.label" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piece tray"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Baki balok"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baki balok"
           }
         }
       }
     },
-    "tray.piece": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Piece %1$d: %2$@"
+    "tray.piece" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piece %1$d: %2$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Balok %1$d: %2$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balok %1$d: %2$@"
           }
         }
       }
     },
-    "verbosity.concise": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Concise"
+    "verbosity.concise" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concise"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ringkas"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ringkas"
           }
         }
       }
     },
-    "verbosity.standard": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Standard"
+    "verbosity.standard" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standard"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Standar"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standar"
           }
         }
       }
     },
-    "verbosity.verbose": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Verbose"
+    "verbosity.verbose" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbose"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rinci"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rinci"
           }
         }
       }
     },
-    "vision.achromatopsia": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Achromatopsia"
+    "vision.achromatopsia" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Achromatopsia"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Akromatopsia"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akromatopsia"
           }
         }
       }
     },
-    "vision.deuteranopia": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deuteranopia"
+    "vision.deuteranopia" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deuteranopia"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deuteranopia"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deuteranopia"
           }
         }
       }
     },
-    "vision.none": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Off"
+    "vision.none" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mati"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mati"
           }
         }
       }
     },
-    "vision.protanopia": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Protanopia"
+    "vision.protanopia" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protanopia"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Protanopia"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protanopia"
           }
         }
       }
     },
-    "vision.tritanopia": {
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tritanopia"
+    "vision.tritanopia" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tritanopia"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tritanopia"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tritanopia"
           }
         }
       }
+    },
+    "Zen" : {
+
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }

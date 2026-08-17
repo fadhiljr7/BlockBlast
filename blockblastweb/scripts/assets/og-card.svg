@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12122A"/>
+      <stop offset="60%" stop-color="#0A0A1A"/>
+      <stop offset="100%" stop-color="#0A0A1A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.15" r="0.7">
+      <stop offset="0%" stop-color="#E94560" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#E94560" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- The seven blocks with their patterns, as a strip: the whole design
+       argument in one row. -->
+  <g transform="translate(80, 384)">
+    <!-- red / dots -->
+    <g transform="translate(0,0)">
+      <rect width="86" height="86" rx="14" fill="#ED424F"/>
+      <g fill="#FFFFFF" opacity="0.62">
+        <circle cx="25.8" cy="25.8" r="9.5"/><circle cx="60.2" cy="25.8" r="9.5"/>
+        <circle cx="25.8" cy="60.2" r="9.5"/><circle cx="60.2" cy="60.2" r="9.5"/>
+      </g>
+      <rect x="1.5" y="1.5" width="83" height="83" rx="13" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="3"/>
+    </g>
+    <!-- blue / horizontal stripes -->
+    <g transform="translate(102,0)">
+      <rect width="86" height="86" rx="14" fill="#3882F5"/>
+      <g fill="#FFFFFF" opacity="0.62">
+        <rect x="10.3" y="9.2" width="65.4" height="10.3"/>
+        <rect x="10.3" y="37.8" width="65.4" height="10.3"/>
+        <rect x="10.3" y="66.4" width="65.4" height="10.3"/>
+      </g>
+      <rect x="1.5" y="1.5" width="83" height="83" rx="13" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="3"/>
+    </g>
+    <!-- green / vertical stripes -->
+    <g transform="translate(204,0)">
+      <rect width="86" height="86" rx="14" fill="#33BA5C"/>
+      <g fill="#FFFFFF" opacity="0.62">
+        <rect x="9.2" y="10.3" width="10.3" height="65.4"/>
+        <rect x="37.8" y="10.3" width="10.3" height="65.4"/>
+        <rect x="66.4" y="10.3" width="10.3" height="65.4"/>
+      </g>
+      <rect x="1.5" y="1.5" width="83" height="83" rx="13" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="3"/>
+    </g>
+    <!-- yellow / crosshatch (dark ink: the fill is light) -->
+    <g transform="translate(306,0)">
+      <rect width="86" height="86" rx="14" fill="#FACC26"/>
+      <g fill="#000000" opacity="0.66">
+        <rect x="18.9" y="23.4" width="17.2" height="8.6"/><rect x="23.2" y="19.1" width="8.6" height="17.2"/>
+        <rect x="49.9" y="23.4" width="17.2" height="8.6"/><rect x="54.2" y="19.1" width="8.6" height="17.2"/>
+        <rect x="18.9" y="54.4" width="17.2" height="8.6"/><rect x="23.2" y="50.1" width="8.6" height="17.2"/>
+        <rect x="49.9" y="54.4" width="17.2" height="8.6"/><rect x="54.2" y="50.1" width="8.6" height="17.2"/>
+      </g>
+      <rect x="1.5" y="1.5" width="83" height="83" rx="13" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="3"/>
+    </g>
+    <!-- purple / diagonals -->
+    <g transform="translate(408,0)">
+      <clipPath id="clip-purple"><rect width="86" height="86" rx="14"/></clipPath>
+      <rect width="86" height="86" rx="14" fill="#9954E6"/>
+      <g clip-path="url(#clip-purple)" stroke="#FFFFFF" stroke-opacity="0.62" stroke-width="11.2">
+        <line x1="-57" y1="86" x2="29" y2="0"/><line x1="-28" y1="86" x2="58" y2="0"/>
+        <line x1="1" y1="86" x2="87" y2="0"/><line x1="30" y1="86" x2="116" y2="0"/>
+      </g>
+      <rect x="1.5" y="1.5" width="83" height="83" rx="13" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="3"/>
+    </g>
+    <!-- orange / checkerboard -->
+    <g transform="translate(510,0)">
+      <clipPath id="clip-orange"><rect width="86" height="86" rx="14"/></clipPath>
+      <rect width="86" height="86" rx="14" fill="#FA8729"/>
+      <g clip-path="url(#clip-orange)" fill="#000000" opacity="0.5">
+        <rect x="0" y="0" width="21.5" height="21.5"/><rect x="43" y="0" width="21.5" height="21.5"/>
+        <rect x="21.5" y="21.5" width="21.5" height="21.5"/><rect x="64.5" y="21.5" width="21.5" height="21.5"/>
+        <rect x="0" y="43" width="21.5" height="21.5"/><rect x="43" y="43" width="21.5" height="21.5"/>
+        <rect x="21.5" y="64.5" width="21.5" height="21.5"/><rect x="64.5" y="64.5" width="21.5" height="21.5"/>
+      </g>
+      <rect x="1.5" y="1.5" width="83" height="83" rx="13" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="3"/>
+    </g>
+    <!-- cyan / waves -->
+    <g transform="translate(612,0)">
+      <rect width="86" height="86" rx="14" fill="#29C9D9"/>
+      <g fill="none" stroke="#000000" stroke-opacity="0.55" stroke-width="8.6" stroke-linecap="round">
+        <path d="M8.6 14.3 Q21.5 6.6 30.1 14.3 T51.6 14.3 T73.1 14.3"/>
+        <path d="M8.6 43 Q21.5 35.3 30.1 43 T51.6 43 T73.1 43"/>
+        <path d="M8.6 71.7 Q21.5 64 30.1 71.7 T51.6 71.7 T73.1 71.7"/>
+      </g>
+      <rect x="1.5" y="1.5" width="83" height="83" rx="13" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="3"/>
+    </g>
+  </g>
+
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+    <text x="80" y="150" fill="#A0A0B0" font-size="26" font-weight="600" letter-spacing="4">
+      IPHONE AND IPAD
+    </text>
+    <text x="80" y="245" fill="#F1F1F1" font-size="76" font-weight="700" letter-spacing="-2">
+      Block Blast. Playable
+    </text>
+    <text x="80" y="325" fill="#F1F1F1" font-size="76" font-weight="700" letter-spacing="-2">
+      by <tspan fill="#FF7A8F">Everyone.</tspan>
+    </text>
+  </g>
+
+  <text x="80" y="540" fill="#A0A0B0" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="27">
+    Seven colours, seven patterns. Every cell has a pitch. Three ways to play.
+  </text>
+</svg>

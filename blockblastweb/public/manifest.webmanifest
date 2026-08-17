@@ -1,0 +1,19 @@
+{
+  "name": "Block Blast: Accessible Edition",
+  "short_name": "Block Blast",
+  "description": "A puzzle game where losing your sight or your colour vision changes nothing.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a0a1a",
+  "theme_color": "#0a0a1a",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

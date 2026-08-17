@@ -1,168 +1,114 @@
-# Block Blast — Website
+# Block Blast — website
 
-The marketing site for **Block Blast: Accessible Edition**, the iOS puzzle game in the
-[parent repository](../README.md). Three pages, no build step, no framework, no image assets —
-every block, pattern, phone mockup and social card on the site is CSS or inline SVG.
+Marketing site for **Block Blast: Accessible Edition**, the iOS puzzle game in the root of this
+repository. Three routes: the landing page, a support centre and a privacy policy — the last two
+because App Store review requires them, and both written to be genuinely useful rather than to
+satisfy a checklist.
 
-**Live:** https://fadhiljr7.github.io/BlockBlast/
+The site is built to be an argument for the app rather than a description of it: the colour-blind
+comparison, the block key and the demo board all run the game's real rules and its real palette,
+lifted from the Swift source, so the page cannot drift away from what it is selling.
 
----
+## Stack
 
-## Running it
+Vite · React · TypeScript · Tailwind CSS v4 · GSAP (with ScrollTrigger) · Three.js · react-router ·
+ESLint with `jsx-a11y` strict.
 
-The site is plain static files. Any static server will do:
+## Commands
 
-```bash
-cd blockblastweb
-python3 -m http.server 8000     # → http://localhost:8000
-# or
-npx serve .
+```sh
+npm install --legacy-peer-deps   # see "Dependency note" below
+npm run dev                      # dev server
+npm run build                    # typecheck, build, prerender, sitemap, robots.txt
+npm run preview                  # serve the built site (use trailing-slash URLs — see below)
+npm run lint                     # ESLint, including strict jsx-a11y
+npm run typecheck                # tsc only
+npm run check                    # verifies the demo board's rules against the app's
+npm run images                   # regenerates og-card.png and apple-touch-icon.png
 ```
 
-Open the folder's `index.html` directly and it mostly works, but use a server: the ES module
-that loads the 3D hero needs a real HTTP origin.
+## How the build works
 
-There is nothing to install, nothing to compile, and no `package.json` on purpose.
+`npm run build` runs four steps:
 
-## Structure
+1. `tsc -b` — typecheck.
+2. `vite build` — the client bundle.
+3. `vite build --ssr src/entry-server.tsx` — the same app compiled for Node.
+4. `node scripts/prerender.mjs` — renders every route with the Node build and writes real HTML.
 
-```
-blockblastweb/
-├── index.html        Landing page (nine sections), with critical CSS inlined
-├── support.html      Support / help — written for App Store reviewers too
-├── privacy.html      Privacy policy
-├── 404.html          On-brand not-found page
-├── manifest.json     PWA manifest for "Add to Home Screen"
-├── favicon.svg       SVG favicon, adapts to light and dark
-├── css/
-│   └── styles.css    The whole design system
-├── js/
-│   ├── i18n.js               Language switching (EN ⇄ ID), persisted
-│   ├── accessibility.js      Nav, drawer, colour-vision filters, form, focus
-│   ├── gsap-animations.js    Scroll and entrance motion
-│   └── three-hero.js         The floating-blocks hero scene
-└── assets/
-    └── og-card.svg   Social sharing card (SVG, generated in-repo)
-```
+The result is a static site where `/`, `/support/` and `/privacy/` are complete documents with their
+own titles, descriptions, Open Graph tags and structured data, plus `404.html`, `sitemap.xml` and
+`robots.txt`. React then hydrates on top. A visitor whose JavaScript never arrives still gets the
+whole site, including every FAQ answer.
 
-GSAP and Three.js load from jsDelivr, pinned to exact versions. They are the only third-party
-code on the site, and the page is fully readable and usable if either fails to load.
+Routes are lazy-loaded on the client, but the *entry* route is awaited before `hydrateRoot` — see the
+comment in `src/main.tsx` for why `React.lazy` cannot be used there.
 
-## How it is put together
+### Deployment
 
-**The design system** lives in the `:root` block of `css/styles.css`. Colours, radii, spacing
-and easing are all tokens; change one there and it propagates everywhere.
+`.github/workflows/deploy-pages.yml` builds this folder and publishes `dist/` to GitHub Pages on
+every push to `main` that touches it. The site is served from a project page, so `vite.config.ts`
+sets `base` to `/BlockBlast/`; build with `BASE_PATH=/` for a root-hosted copy or a custom domain.
 
-**The palettes are real.** The six theme previews and the pattern demo use the actual colour
-values from the iOS app's `Theme.swift`, converted to hex, and the seven patterns are the same
-seven the game draws — dots, horizontal stripes, vertical stripes, crosshatch, diagonals,
-checkerboard, waves. Each pattern is a CSS gradient tinted with `color-mix()` to a darker tone
-of its own block, so it stays visible on a pale pastel block and a near-black one alike.
-
-**The colour-blindness simulator** in the accessibility section applies the same
-Brettel/Viénot matrices the app uses, injected as SVG `feColorMatrix` filters by
-`accessibility.js`.
-
-### Language switching
-
-English lives in the HTML and is the source of truth, so the site is complete and readable
-with JavaScript disabled. Indonesian lives in the `ID` dictionary at the top of `js/i18n.js`.
-
-Two mechanisms, chosen per content type:
-
-| Content | Mechanism |
-| --- | --- |
-| Short UI strings | `data-i18n="key"` on the element, plus `data-i18n-aria` / `data-i18n-placeholder` for attributes |
-| Long-form prose (support, privacy) | Both languages in the markup as `<div data-lang-block="en">` / `<div data-lang-block="id">`, toggled with `hidden` |
-
-The choice is stored in `localStorage` under `bb-lang`, persists across pages, updates
-`<html lang>`, and fires a `bb:langchange` event that the hero animation listens for.
-First-time visitors get Indonesian automatically if their browser language starts with `id`.
-
-### Motion
-
-`gsap-animations.js` sets every initial state **in JavaScript, never in CSS**. If the GSAP CDN
-fails, nothing is left invisible — elements simply stay where they already are. All motion sits
-inside a `gsap.matchMedia()` block gated on `prefers-reduced-motion: no-preference`; the reduce
-branch clears transforms and shows everything. Stats counters run in both modes, because a
-number landing on its value is information rather than decoration.
-
-One deliberate departure from the usual advice: section reveals animate `opacity`, not
-`autoAlpha`. `autoAlpha` also sets `visibility: hidden`, which removes elements from the
-accessibility tree — a screen-reader user browsing by headings would find whole sections
-missing until someone scrolled past them. axe-core flags it as a heading-order break.
-
-The themes carousel pins and scrubs horizontally on desktop only. Below 900px it is a native
-scroll-snap scroller, focusable with a keyboard.
-
-### The hero scene
-
-Twelve `BoxGeometry` cubes on a loose 8×8 grid, in the game's palette, lit by an ambient fill,
-a shadow-casting key light and a coral rim. Three.js is fetched with a dynamic `import()` that
-only fires once the hero is on screen **and** the browser is idle, so roughly a megabyte of
-library never competes with first paint. The render loop pauses when the hero scrolls away or
-the tab is hidden, and everything is disposed on `pagehide`.
-
-Under reduced motion it renders a single static frame. If WebGL is unavailable, the canvas
-removes itself and the hero text is unaffected.
+Deep links are directories (`/support/index.html`), which is what static hosts serve. `vite preview`
+does *not* redirect `/support` → `/support/` the way GitHub Pages does — it returns the SPA fallback
+instead — so when checking a local build, use the trailing slash.
 
 ## Accessibility
 
-The site is built to the same standard as the game it advertises.
+The site is held to the standard the game is: WCAG 2.1 AA, semantic landmarks, a skip link, visible
+focus on everything focusable, and colour never used as the only signal (the demo board and the
+privacy labels both carry their meaning in words as well as in hue).
 
-- WCAG 2.1 AA. Verified with **axe-core: zero violations** on all four pages, at desktop and
-  mobile widths, in both languages, including a pass with every scroll animation revealed and a
-  pass under `prefers-reduced-motion`.
-- Contrast is checked, not assumed: white on the brand coral `#E94560` is only 3.83:1, so
-  filled buttons use `--primary-strong: #D43F57` (4.52:1). The brand coral stays for accents,
-  where it is 5.12:1 against the background.
-- Semantic landmarks, a skip link, visible 2px focus rings, a keyboard-accessible carousel, and
-  a focus-trapped mobile drawer that restores focus on close.
-- `prefers-reduced-motion`, `prefers-reduced-transparency` and `prefers-contrast` are all
-  honoured, plus a print stylesheet that drops the 3D scene and prints every language block.
+Specific decisions worth knowing before changing them:
 
-## Performance
+- **The App Store button is a `button`, not a link.** The listing does not exist, and a link to `#`
+  is a trap for keyboard and screen reader users. It is `aria-disabled`, stays focusable, and
+  explains itself when activated.
+- **Entrance animations are gated on a `motion-ready` class**, set by an inline script in
+  `index.html` only when JavaScript is live and reduced motion is off. Nothing is ever hidden
+  waiting for an animation that will not arrive; a five-second fallback reveals everything if the
+  bundle fails.
+- **The FAQ accordions are gated on a `js` class** for the same reason. With no JavaScript they
+  render open.
+- **Reduced motion is respected in three layers**: GSAP timelines never run, the Three.js loops draw
+  one static frame and stop, and a CSS media block overrides anything missed.
+- **Both WebGL canvases are `aria-hidden`** and have text alternatives beside them.
+- **The demo board is a real ARIA grid** with roving tabindex and arrow-key navigation, and it
+  announces moves through a polite live region — but not focus changes, which a screen reader
+  already reads from each cell's label.
 
-Lighthouse on `index.html`, mobile preset:
+## Where the game's data lives
 
-| Metric | Score |
-| --- | --- |
-| Performance | 99 |
-| Accessibility | 100 |
-| Best Practices | 100 |
-| SEO | 100 |
+| File | Mirrors |
+|---|---|
+| `src/lib/blocks.ts` | `BlockColor.swift`, `Theme.swift` — the seven blocks, their patterns, tone offsets and the colour-vision matrices |
+| `src/components/BlockTile.tsx` | `PatternShape.swift` — the pattern geometry, redrawn as SVG at the same proportions |
+| `src/lib/miniGame.ts` | `Board.swift`, `GameEngine.swift` — placement, line clears, scoring, combo and Zen relief |
+| `src/data/site.ts`, `src/data/faq.ts` | The feature set, placement modes and support answers |
 
-Cumulative Layout Shift is 0. Getting there meant abandoning one common trick: the
-`rel="preload"` + `onload` async-CSS swap re-flowed the hero headline after first paint, worth a
-0.709 CLS penalty. A single ordinary `<link>` costs less than the shift it avoids.
+`npm run check` verifies the demo board against the app's rules: the scoring formula
+(cells + lines² × 10, times the combo), the combo cap, the spoken labels, and the guarantee that the
+demo can never dead-end.
 
-The remaining point comes from compression and cache headers, which the host supplies.
+## Placeholders
 
-## Deployment
+Deliberate, and marked as such on the page:
 
-Pushing to `main` with changes under `blockblastweb/` triggers
-[`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml), which checks the
-expected files exist and publishes the folder to GitHub Pages. It can also be run by hand from
-the Actions tab.
+- No App Store link — every CTA says "Coming soon".
+- Testimonials are written as placeholder copy, and the section says so.
+- "Watch the Film" opens the described scene list rather than a video that does not exist yet.
+- The contact form has no backend; it composes a message in the visitor's own mail client.
 
-Repository settings → Pages → **Source: GitHub Actions** must be set once, or the workflow will
-fail at the deploy step.
+## Dependency note
 
-### Moving to a custom domain
+`eslint-plugin-jsx-a11y` has not yet declared ESLint 10 in its peer range, so `npm install` needs
+`--legacy-peer-deps`. The plugin itself works correctly under flat config; only the declared range is
+stale. The CI workflow installs the same way.
 
-1. Add a `CNAME` file containing the domain to `blockblastweb/`.
-2. Change `<base href="/BlockBlast/">` in `404.html` to `<base href="/">`.
-3. Update the absolute `og:url`, `og:image`, `twitter:image` and `canonical` values in
-   `index.html`.
+## Images
 
-## Before launch
-
-- [ ] Replace the placeholder addresses `support@blockblast.app` and `privacy@blockblast.app`
-      in `support.html` and `privacy.html`.
-- [ ] Point the App Store buttons at the real listing and drop their `aria-disabled` attributes
-      and the "Coming Soon" tooltip.
-- [ ] Replace the "Who we design for" quotes with real beta feedback. They are written as design
-      commitments rather than testimonials precisely so that nothing on the page pretends to be a
-      user review before there are users.
-- [ ] Wire the notify form to a real endpoint, or remove it. Today it validates in the browser
-      and stores nothing — and the privacy policy says exactly that.
+`public/og-card.png` and `public/apple-touch-icon.png` are generated from the SVG sources in
+`scripts/assets/` by `npm run images`. They have to be bitmaps — social crawlers largely ignore an
+SVG `og:image`, and iOS ignores an SVG touch icon — but the sources stay as SVG so they remain
+reviewable in a diff.
