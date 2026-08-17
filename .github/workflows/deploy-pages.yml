@@ -7,7 +7,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'blockblastweb/**'
+      - 'blocckblastweb/**'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
@@ -23,7 +23,7 @@ concurrency:
 
 defaults:
   run:
-    working-directory: blockblastweb
+    working-directory: blocckblastweb
 
 jobs:
   build:
@@ -37,37 +37,31 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: blockblastweb/package-lock.json
+          cache-dependency-path: blocckblastweb/package-lock.json
 
-      # eslint-plugin-jsx-a11y has not declared ESLint 10 in its peer range yet,
-      # so a strict install refuses to resolve the tree.
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
+        run: npm ci
 
       - name: Lint
         run: npm run lint
 
-      - name: Check the demo board rules
-        run: npm run check
-
-      # Builds the client, builds the SSR bundle, then prerenders every route to
-      # static HTML with its own metadata, plus sitemap.xml and robots.txt.
-      - name: Build and prerender
+      # `npm run build` type-checks, bundles with the /BlockBlast/ base that a
+      # Pages project site needs, and copies index.html to 404.html so a hard
+      # refresh on /support is handed back to the router.
+      - name: Build
         run: npm run build
 
-      - name: Verify the prerendered output
+      - name: Verify the build output
         run: |
           set -e
-          for file in index.html support/index.html privacy/index.html 404.html sitemap.xml robots.txt og-card.png; do
+          for file in index.html 404.html appLogo.png; do
             test -f "dist/$file" || { echo "::error::missing dist/$file"; exit 1; }
           done
-          # A prerendered page must contain real content, not an empty shell —
-          # this is the check that catches the SSR step silently degrading.
-          grep -q 'Playable by Everyone' dist/index.html \
-            || { echo "::error::index.html has no prerendered hero copy"; exit 1; }
-          grep -q 'FAQPage' dist/support/index.html \
-            || { echo "::error::support page is missing its FAQ structured data"; exit 1; }
-          echo "Prerendered output looks complete."
+          # The one failure that still serves a page: a build made with the wrong
+          # base, where index.html loads and every asset 404s into a blank screen.
+          grep -q 'src="/BlockBlast/assets/' dist/index.html \
+            || { echo "::error::dist/index.html is not built for the /BlockBlast/ base path"; exit 1; }
+          echo "Build output looks correct."
 
       # enablement: true lets the workflow create the Pages site itself on the
       # first run. Without it the action only reads the config, and fails with
@@ -80,7 +74,7 @@ jobs:
       - name: Upload the site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: blockblastweb/dist
+          path: blocckblastweb/dist
 
   deploy:
     needs: build
